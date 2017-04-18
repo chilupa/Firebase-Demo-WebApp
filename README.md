@@ -13,4 +13,5 @@ This page takes two values as input from the User i.e., Name and Email. These va
 # Getting the data from Firebase
 We can even get the data from the Firebase and populate the data on our Web page. This is how I was able to add the data on my web page. 
 
-![](/images/readingdata.png?raw=true "User Registration Page")
+<img src="https://github.com/pavanchilukuri/Firebase-Demo-WebApp/blob/getting-the-data-from-firebase/images/readingdata.png" width="350">
+

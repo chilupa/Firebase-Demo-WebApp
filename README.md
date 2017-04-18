@@ -4,3 +4,7 @@ This application gives you a brief idea about Firebase. Basically, Its a web app
 The model I chose as an example for this application is a **User Registration** page as shown below:
 
 ![Alt text](/images/userregistration.png?raw=true "User Registration Page")
+
+This page takes two values as input from the User i.e., Name and Email. These values will be stored in the **Firebase**. Following picture shows the Firebase console that I've used through out my application.
+
+![Alt text](/images/firebaseconsole.png?raw=true "User Registration Page")

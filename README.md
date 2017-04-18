@@ -3,7 +3,7 @@ This application gives you a brief idea about Firebase. Basically, Its a web app
 
 The model I chose as an example for this application is a **User Registration** page as shown below:
 
-![Alt text](/images/userregistration.png?raw=true "User Registration Page")
+![Alt text|small](/images/userregistration.png?raw=true "User Registration Page")
 
 # Database Structure in Firebase
 This page takes two values as input from the User i.e., Name and Email. These values will be stored in the **Firebase**. Following picture shows the Firebase console that I've used through out my application.
@@ -13,4 +13,4 @@ This page takes two values as input from the User i.e., Name and Email. These va
 # Getting the data from Firebase
 We can even get the data from the Firebase and populate the data on our Web page. This is how I was able to add the data on my web page. 
 
-![title|small](/images/readingdata.png?raw=true "User Registration Page")
+![](/images/readingdata.png?raw=true "User Registration Page")

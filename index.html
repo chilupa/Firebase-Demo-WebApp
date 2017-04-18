@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Firebase Web Basics</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://use.fontawesome.com/939e9dd52c.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div class="mainDiv" align="right">
+		<h1 align="left">User Registration</h1>
+		<br>
+		<div align="left" class="form-group">
+			<label for="inputName">Name:</label>
+			<input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+		</div>
+		<div align="left" class="form-group">
+			<label for="inputEmail">Email:</label>
+			<input type="text" class="form-control" id="inputEmail" placeholder="Enter your email">
+		</div>
+		<button id="submitBtn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+	</div>
+	<section>
+		<br> <br>
+	</section>
+
+	<div class="table-responsive">
+		<table class="table">
+			<thead style="color: aliceblue">
+				<th>Key</th>
+				<th>Value</th>
+			</thead>
+			<tbody id="usersData">
+			</tbody>
+		</table>
+	</div>
+
+	<script src="https://www.gstatic.com/firebasejs/3.7.8/firebase.js"></script>
+	<script src="firebase-init.js"></script>
+	<script src="index.js"></script>
+
+</body>
+
+</html>
